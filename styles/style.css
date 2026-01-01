@@ -110,5 +110,11 @@ html { scroll-behavior: smooth; }
 }
 
 .profile-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 0 1.5rem 0;
   filter: saturate(1.05);
 }
